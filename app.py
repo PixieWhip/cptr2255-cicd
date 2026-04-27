@@ -3,7 +3,7 @@ Simple application for CI/CD practice.
 """
 
 def add(a, b):
-	return a - b # BUG: should be a + b
+	return a + b # FIXED!
 
 def subtract(a, b):
     """Subtract b from a."""
