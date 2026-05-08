@@ -23,4 +23,4 @@ jobs:
       run: pytest test_app.py --cov=app --cov-fail-under=80
 
     - name: Run Bandit
-      run: bandit -r .
+      run: bandit -r
